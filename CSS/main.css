@@ -1,0 +1,101 @@
+/* 
+    Created on : 27-Aug-2017, 4:51:07 PM
+    Author     : Owen
+*/
+
+.Content{ 
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
+    width:600px; 
+        margin-left: auto;
+    margin-right: auto;
+}
+
+.Main{
+    margin-top: 60px; /* Add a top margin to avoid content overlay */
+    text-align: center;    
+    width:1000px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Map{
+    display: -webkit-flex;
+    display: flex;
+    width:600px; 
+    height:600px; 
+    background-image: url("../locationimages/map.png");
+    
+}
+
+.map-item
+{
+    left: 40px;
+    top: 40px;
+    position: relative;
+    
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#sidebar{
+    float: left;
+    width: 200px;
+    border: 1px solid black;
+}
+
+
+#profile{
+    float: left;
+    width: 180px;
+    border: 1px solid black;
+    margin-right: 2px;
+    position: fixed;
+}
+
+#profilepic{
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 100px;
+        margin-left: auto;
+    margin-right: auto;
+        display: block;
+    
+}
+
+#MainLogin{
+    margin-top: 40px; /* Add a top margin to avoid content overlay */
+    border: 1px solid black;
+}
+
+#Registration{
+    margin-top: 40px; /* Add a top margin to avoid content overlay */
+    border: 1px solid black;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 600px; /* Full width */
+
+    left: 50%;
+    margin-left: -300px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
